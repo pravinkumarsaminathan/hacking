@@ -1,0 +1,17 @@
+For Linux
+
+import os
+import stat
+import platform
+import psutil
+
+For Windows
+
+import os
+import platform
+import ctypes
+import winreg
+import psutil
+import win32security  # Requires pywin32
+import win32api       # Requires pywin32
+import win32evtlog    # Requires pywin32
